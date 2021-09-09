@@ -1,11 +1,14 @@
 package deber.string;
 
-public class Estudiante {
+public class Estudiante extends  Persona {
 
 	private String nombre;
 	private String cedula;
 	
-	
+	public Estudiante( String cedula) {
+		
+		this.cedula=cedula;
+	}
 	public String getNombre() {
 		return nombre;
 	}
