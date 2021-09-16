@@ -36,10 +36,12 @@ public class Main {
 							 lector.nextLine();
 								System.out.print("Ingrese Cedula del Estudiante a Encontrar: ");
 								 String cedulaBuscar=lector.nextLine();
+								 String cedula1="";
 						
 								for(int i=0;i<Lista.length;i++) {
 								Estudiante studt=Lista[i];
-								String cedula1=studt.getCedula();
+								 cedula1=studt.getCedula();
+								
 								
 								if(cedulaBuscar.equals(cedula1) || cedulaBuscar==cedula) {
 									System.out.println("Se encontro");

@@ -6,7 +6,7 @@ public  class DoctorGeneral extends Doctor {
 	public String horaSalida="22:00";
 	
 	public DoctorGeneral() {
-		horaEngrada="09:00";  //al estar un atributo en final este no se puede reasignar los valores puesto anteriormente.
+		//horaEngrada="09:00";  //al estar un atributo en final este no se puede reasignar los valores puesto anteriormente.
 		horaSalida="21:30";
 	}
 	protected final void realizarCirugia() {
