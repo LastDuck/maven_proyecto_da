@@ -43,7 +43,7 @@ public class Main {
 								 cedula1=studt.getCedula();
 								
 								
-								if(cedulaBuscar.equals(cedula1) || cedulaBuscar==cedula) {
+								if(cedulaBuscar.equals(cedula1) && cedulaBuscar==cedula) {
 									System.out.println("Se encontro");
 									
 								}else {
