@@ -1,6 +1,9 @@
 package ejercicios.coleccion.listss;
 
+
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
 
 public class Main {
@@ -20,6 +23,14 @@ public class Main {
 		listaNueva.add(n3);
 		listaNueva.add(n4);
 		listaNueva.add(n5);
+		
+		Date dt = new Date();
+        System.out.println("Today:    "+dt);
+        Calendar c = Calendar.getInstance();
+        c.setTime(dt);
+        c.add(Calendar.DATE, 5);
+        dt = (Date) c.getTime();
+        System.out.println("Tomorrow: "+dt);
 	}
 
 }
