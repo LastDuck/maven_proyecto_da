@@ -7,6 +7,7 @@ public class CursoVacacional {
 	private String nombre;
 	private  LocalDate fechaInicio;
 	private  LocalDate fechafinal;
+	private Instructor instructor;
 
 
 	
@@ -27,6 +28,12 @@ public class CursoVacacional {
 	}
 	public void setFechafinal(LocalDate fechafinal) {
 		this.fechafinal = fechafinal;
+	}
+	public Instructor getInstructor() {
+		return instructor;
+	}
+	public void setInstructor(Instructor instructor) {
+		this.instructor = instructor;
 	}
 
 }
